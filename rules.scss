@@ -1,0 +1,156 @@
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules --*/
+
+#title-slide .title {
+  font-size: 300px;
+  text-align: left;
+  color: #9BB7D4;
+}
+
+#title-slide .subtitle {
+  font-family: 'Caveat', cursive;
+  color: #3D5A6C;
+  font-size: 80px;
+  text-align: left;
+}
+
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author{
+  padding: 0;
+}
+
+.reveal .quarto-title-block .quarto-title-authors {
+  justify-content: right;
+}
+
+#title-slide .quarto-title-author-name {
+  text-align: right;
+  font-size: 50px;
+}
+
+#title-slide .quarto-title-affiliation {
+  text-align: right;
+  font-size: 40px;
+  color: #5C6B63;
+}
+
+#title-slide .date {
+  text-align: right;
+  font-size: 30px;
+  margin-top: 0.5em;
+  color: #5C6B63;
+}
+
+/* Section break slides */
+.reveal section.level1 {
+  align-items: flex-start;
+}
+
+.reveal section.level1 h1 {
+  font-size: 200px !important;
+  color: #9BB7D4;
+  text-align: left;
+}
+
+.reveal section.level1 h1 .summary {
+  font-size: 100px !important;
+  color: #9BB7D4;
+  text-align: left;
+}
+
+.reveal section.level1 .rule {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 80px;
+  color: #3D5A6C;
+  text-align: left;
+}
+
+.reveal section.level1 .rule-detail {
+  text-align: left;
+}
+
+.hand {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 1.2em;
+  color: #3D5A6C;
+}
+
+.hand-simple {
+  font-family: 'Caveat', cursive;
+  font-size: 1.2em;
+}
+
+.smallest {
+  font-size: 0.5em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.large {
+  font-size: 1.5em;
+}
+
+.xlarge {
+  font-size: 2em;
+}
+
+.medium {
+  font-size: 0.9em;
+}
+
+.center {
+  text-align: center;
+}
+
+.reveal .slide .question {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid 5px #C5D5C5;
+  border-bottom: solid 5px #C5D5C5;
+  background-color: #C5D5C550;
+  font-size: smaller;
+}
+
+.reveal .cell-output-stdout pre,
+.reveal .cell-output-stdout code,
+.reveal .cell-output pre,
+.reveal .sourceCode pre {
+  background-color: #FFFFFF50 !important;
+}
+
+.reveal .slide div.fancy-list {
+  ol {
+    list-style: none !important;
+    counter-reset: item;
+    padding-left: 0;
+
+    li {
+      counter-increment: item;
+      margin-bottom: 0.5em;
+
+      &::before {
+        content: counter(item) ". ";
+        font-family: 'Caveat Brush', cursive;
+        font-size: 1.3em;
+        color: #9BB7D4;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+.reveal .slide.middle {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+iframe {
+  border-style: solid;
+  border-color: #9BB7D4;
+  border-width: 1px;
+}

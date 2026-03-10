@@ -1,0 +1,35 @@
+
+# Brand colors from Pantone palette (colors.png)
+color:
+  palette:
+    cloud-dancer: "#F4F0E6"    # PANTONE 11-4201 Cloud Dancer (off-white)
+    veiled-vista: "#C5D5C5"    # PANTONE 12-6000 Veiled Vista (light sage)
+    baltic-sea: "#9BB7D4"      # PANTONE 14-4320 Baltic Sea (light blue)
+    golden-mist: "#E2D58B"     # PANTONE 13-0624 Golden Mist (soft yellow)
+    quiet-violet: "#9F91B7"    # PANTONE 16-3610 Quiet Violet (lavender)
+    cloud-cover: "#C4B7A6"     # PANTONE 16-1523 Cloud Cover (beige/tan)
+    hematite: "#5C6B63"        # PANTONE 17-5800 Hematite (gray-teal)
+    blue-fusion: "#3D5A6C"     # PANTONE 18-4218 Blue Fusion (dark blue)
+
+  foreground: black
+  background: cloud-dancer
+  primary: blue-fusion
+  secondary: hematite
+  tertiary: baltic-sea
+
+typography:
+  fonts:
+    - family: Atkinson Hyperlegible
+      source: google
+    - family: Caveat Brush
+      source: google
+    - family: Caveat
+      source: google
+  base:
+    family: Atkinson Hyperlegible
+  headings: 
+    color: blue-fusion
+    family: Caveat Brush
+  link: 
+    color: blue-fusion
+    decoration: underline
