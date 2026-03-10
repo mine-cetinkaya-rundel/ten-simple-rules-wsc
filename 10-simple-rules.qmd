@@ -2,8 +2,8 @@
 title: "10"
 subtitle: simple rules for teaching data science
 author: Mine Çetinkaya-Rundel
-institute: Duke University, Department of Statistical Science
-date: 2026-03-10
+institute: Duke University, Department of Statistical Science <br> 🔗 [duke.is/10-simple-rules-wsc](https://duke.is/10-simple-rules-wsc)
+date: 2026-03-10 
 date-format: long
 format: 
   revealjs:
@@ -588,4 +588,10 @@ thank you!
 
 :::
 
-Questions?
+<br><br>
+
+::: {.center .large}
+
+🔗 [duke.is/10-simple-rules-wsc](https://duke.is/10-simple-rules-wsc)
+
+:::
