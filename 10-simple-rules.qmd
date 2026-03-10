@@ -10,6 +10,10 @@ format:
     theme: 
       - brand
       - rules.scss
+title-slide-attributes:
+  data-background-image: images/qrcode.png
+  data-background-size: 100px
+  data-background-position: bottom 15px left 50px
 ---
 
 # Hello, world!
@@ -593,5 +597,7 @@ thank you!
 ::: {.center .large}
 
 🔗 [duke.is/10-simple-rules-wsc](https://duke.is/10-simple-rules-wsc)
+
+![](images/qrcode.png){fig-alt="QR code for duke.is/10-simple-rules-wsc" width=200px style="border-style: solid; border-color: #9BB7D4; border-width: 1px;"}
 
 :::
